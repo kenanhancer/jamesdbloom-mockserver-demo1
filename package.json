@@ -1,0 +1,20 @@
+{
+  "name": "jamesdbloom-mockserver-demo1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "start:mockserver:interaction": "docker run -it -p 1080:1080 mockserver/mockserver"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mockserver-client": "^5.9.0"
+  },
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
